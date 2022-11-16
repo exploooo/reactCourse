@@ -6,6 +6,28 @@ function Header() {
     )
 }
 
+function List() {
+    return (
+        <ol>
+            <li>GTA: Vice City</li>
+            <li>Pet Racer</li>
+            <li>Need for Speed Most Wanted</li>
+            <li>Metin 2</li>
+            <li>Knack!!!</li>
+        </ol> 
+    )
+}
+
+function Main() {
+    return (
+        <div>
+            <h1>Hello React!</h1>
+            <h3>Here's a list of good games</h3>
+            <List />
+        </div>
+    )
+}
+
 function Footer() {
     return (
         <p><small><i>2022 Mikołaj Sarnecki, All rights Reserved</i></small></p>
@@ -16,15 +38,7 @@ function Page() {
     return (
         <div>
             <Header />
-            <h1>Hello React!</h1>
-            <h3>Here's a list of good games</h3>
-            <ol>
-                <li>GTA: Vice City</li>
-                <li>Pet Racer</li>
-                <li>Need for Speed Most Wanted</li>
-                <li>Metin 2</li>
-                <li>Knack!!!</li>
-            </ol>
+            <Main />
             <Footer />
         </div>
     )
