@@ -1,7 +1,12 @@
 function Header() {
     return (
-        <nav>
-           <h1><img src='./react.png' alt="react logo" width="60px" /><b>react</b></h1> 
+        <nav className = "header-nav">
+           <img className="nav-img "src='./react.png' alt="react logo" />
+            <ul className = "nav-links">
+                <li>Pricing</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
         </nav>
     )
 }
@@ -20,9 +25,9 @@ function List() {
 
 function Main() {
     return (
-        <div>
+        <div className = "main">
             <h1>Hello React!</h1>
-            <h3>Here's a list of good games</h3>
+            <h3>Here's a list of good games:</h3>
             <List />
         </div>
     )
@@ -30,7 +35,7 @@ function Main() {
 
 function Footer() {
     return (
-        <p><small><i>2022 Mikołaj Sarnecki, All rights Reserved</i></small></p>
+        <p className = "footer"><small>2022 Mikołaj Sarnecki, All rights Reserved</small></p>
     )
 }
 
