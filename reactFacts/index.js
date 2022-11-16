@@ -1,7 +1,7 @@
 function Header() {
     return (
         <nav>
-           <h1>Hello!  <img src='./react.png' alt="react logo" width="40px" /></h1> 
+           <h1><img src='./react.png' alt="react logo" width="60px" /><b>react</b></h1> 
         </nav>
     )
 }
@@ -16,6 +16,7 @@ function Page() {
     return (
         <div>
             <Header />
+            <h1>Hello React!</h1>
             <h3>Here's a list of good games</h3>
             <ol>
                 <li>GTA: Vice City</li>
